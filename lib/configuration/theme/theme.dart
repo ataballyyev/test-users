@@ -5,7 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 ThemeData darkTheme = ThemeData(
   brightness: Brightness.dark,
   useMaterial3: true,
-  primaryColor: Colors.green,
+  primaryColor: const Color(0xFF0870FF),
   scaffoldBackgroundColor: Colors.black,
   bottomNavigationBarTheme: const BottomNavigationBarThemeData(
     backgroundColor: Colors.black,
@@ -14,9 +14,9 @@ ThemeData darkTheme = ThemeData(
     backgroundColor: Colors.black,
     surfaceTintColor: Colors.transparent,
   ),
-  indicatorColor: Colors.grey.shade600,
+  indicatorColor: const Color(0xFF64748B),
   cardColor: const Color(0xFF252525),
-  shadowColor: const Color(0xFFFCFCFF),
+  shadowColor: const Color(0xFF1D2048),
   highlightColor: Colors.transparent,
   splashColor: Colors.transparent,
 );
@@ -24,7 +24,7 @@ ThemeData darkTheme = ThemeData(
 ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,
   useMaterial3: true,
-  primaryColor: Colors.green,
+  primaryColor: const Color(0xFF0870FF),
   scaffoldBackgroundColor: const Color(0xFFFBFBFC),
   bottomNavigationBarTheme: const BottomNavigationBarThemeData(
     backgroundColor: Color(0xFFFCFCFF),
@@ -33,9 +33,9 @@ ThemeData lightTheme = ThemeData(
     backgroundColor: Color(0xFFFCFCFF),
     surfaceTintColor: Colors.transparent,
   ),
-  indicatorColor: Colors.grey.shade400,
+  indicatorColor: const Color(0xFF64748B),
   cardColor: const Color(0xFFFCFCFF),
-  shadowColor: const Color(0xFF252525),
+  shadowColor: const Color(0xFF1D2048),
   highlightColor: Colors.transparent,
   splashColor: Colors.transparent,
 );
